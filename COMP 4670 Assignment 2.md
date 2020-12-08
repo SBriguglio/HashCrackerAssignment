@@ -8,18 +8,15 @@ This program, written in Python 3.8, contains 3 methods, RSA_Keygen(), RSA_Encry
 
 Below is sample output showing each step.
 
-1. RSA_Keygen
-![](https://github.com/SBriguglio/HashCrackerAssignment/blob/master/images/Screenshot%202020-11-10%20020857.png?raw=true)
-<br/>
-2. RSA_ Encryption
-![](https://github.com/SBriguglio/HashCrackerAssignment/blob/master/images/Screenshot%202020-11-10%20020957.png?raw=true)
-<br/>
-3. RSA_Decryption
-![](https://github.com/SBriguglio/HashCrackerAssignment/blob/master/images/Screenshot%202020-11-10%2021102.png?raw=true)
-<br/>
-4. Summary of results
-![](https://github.com/SBriguglio/HashCrackerAssignment/blob/master/images/Screenshot%202020-11-10%20021149.png?raw=true)
-<br/>
+1. RSA_Keygen <br /> ![](https://github.com/SBriguglio/HashCrackerAssignment/blob/master/images/Screenshot%202020-11-10%20020857.png?raw=true)
+
+2. RSA_ Encryption <br /> ![](https://github.com/SBriguglio/HashCrackerAssignment/blob/master/images/Screenshot%202020-11-10%20020957.png?raw=true)
+
+3. RSA_Decryption <br /> ![](https://github.com/SBriguglio/HashCrackerAssignment/blob/master/images/Screenshot%202020-11-10%2021102.png?raw=true)
+
+4. Summary of results <br /> ![](https://github.com/SBriguglio/HashCrackerAssignment/blob/master/images/Screenshot%202020-11-10%20021149.png?raw=true)
+
+<br />
 ## Question 2: Hash Cracker
 
 For this section, I began by acquiring a list of the top 10,000 most common passwords from a git repository found here: https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/10-million-password-list-top-10000.txt. I created a small program written in Python to create a dictionary CSV file which had two columns. The first column was each of the 10000 passwords in plaintext and the second column was their SHA-512 hashed value. I also created another small program to produce a CSV with usernames and hashed passwords to stand in for a stolen list from a company database.
@@ -27,9 +24,9 @@ For this section, I began by acquiring a list of the top 10,000 most common pass
 After producing a dictionary and stolen user login details, I used my hash cracker program (hashcracker.py) to compare hashed password against the dictionary and print matches along with the plaintext password. For simplicities sake, I name all the hits that I had added to the userdata, some variation of Hit1 or Hit2. 
 
 As hoped, the hash cracker compare the SHA-512 hashed passwords against the dictionary and detected the matched. A screen shot of the output is included below.
-<br/>
+
 ![](https://github.com/SBriguglio/HashCrackerAssignment/blob/master/images/Screenshot%202020-11-10%20170307.png?raw=true)
-<br/>
+
 For reference, I've included the hashcraker.py code below:
 
 ```python
