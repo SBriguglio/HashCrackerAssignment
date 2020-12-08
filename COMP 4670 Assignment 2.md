@@ -2,8 +2,6 @@
 
 ### Spencer Briguglio
 
-### 103 746 720
-
 ## Question 1: RSA Public/Private Key Generation, Encryption and Decryption
 
 This program, written in Python 3.8, contains 3 methods, RSA_Keygen(), RSA_Encryption(), and RSA_Decryption(), in addition to a main method. The main method generates a list of primes and then asks the user for an input string to encrypt and decrypt. The main method chooses two primes at random and first uses them to create a public and private key. These keys are then used to encrypt and decrypt the input message, respectively.
@@ -12,19 +10,15 @@ Below is sample output showing each step.
 
 1. RSA_Keygen
 
-![](C:\Users\ssbri\OneDrive\UWinCompSci\2020_3_Fall_Graduation_CONGRATULATIONS\COMP4220-Agile-Software-Development\Project\Stuff\A4\Screenshot 2020-11-10 020857.png)
 
 2. RSA_ Encryption
 
-![](C:\Users\ssbri\OneDrive\UWinCompSci\2020_3_Fall_Graduation_CONGRATULATIONS\COMP4220-Agile-Software-Development\Project\Stuff\A4\Screenshot 2020-11-10 020957.png)
 
 3. RSA_Decryption
 
-![](C:\Users\ssbri\OneDrive\UWinCompSci\2020_3_Fall_Graduation_CONGRATULATIONS\COMP4220-Agile-Software-Development\Project\Stuff\A4\Screenshot 2020-11-10 021102.png)
 
 4. Summary of results
 
-![](C:\Users\ssbri\OneDrive\UWinCompSci\2020_3_Fall_Graduation_CONGRATULATIONS\COMP4220-Agile-Software-Development\Project\Stuff\A4\Screenshot 2020-11-10 021149.png)
 
 ## Question 2: Hash Cracker
 
@@ -34,7 +28,6 @@ After producing a dictionary and stolen user login details, I used my hash crack
 
 As hoped, the hash cracker compare the SHA-512 hashed passwords against the dictionary and detected the matched. A screen shot of the output is included below.
 
-![](C:\Users\ssbri\OneDrive\UWinCompSci\2020_3_Fall_Graduation_CONGRATULATIONS\COMP4220-Agile-Software-Development\Project\Stuff\A4\Screenshot 2020-11-10 170307.png)
 
 For reference, I've included the hashcraker.py code below:
 
