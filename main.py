@@ -1,5 +1,5 @@
 # Created by: Spencer Briguglio
-# Student Number: 103 746 720
+# Student Number: ##########
 # Date: November 9th, 2020
 from sympy import *
 import random
