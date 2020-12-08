@@ -12,7 +12,7 @@ Below is sample output showing each step.
 
 2. RSA_ Encryption <br /> ![](https://github.com/SBriguglio/HashCrackerAssignment/blob/master/images/Screenshot%202020-11-10%20020957.png?raw=true)
 
-3. RSA_Decryption <br /> ![](https://github.com/SBriguglio/HashCrackerAssignment/blob/master/images/Screenshot%202020-11-10%2021102.png?raw=true)
+3. RSA_Decryption <br /> ![](https://github.com/SBriguglio/HashCrackerAssignment/blob/master/images/Screenshot%202020-11-10%20021102.png?raw=true)
 
 4. Summary of results <br /> ![](https://github.com/SBriguglio/HashCrackerAssignment/blob/master/images/Screenshot%202020-11-10%20021149.png?raw=true)
 
